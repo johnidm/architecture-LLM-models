@@ -2,6 +2,16 @@
 
 Building scalable consumer of LLM models
 
+
+### Tech stack:
+
+- Redis
+- Celery
+- FatAPI
+- LangChain 
+- Open AI
+- HuggingFace
+
 ### Step to up the application:
 
 Use Python version **3.10.x**

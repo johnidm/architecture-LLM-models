@@ -24,7 +24,7 @@ class ModelFake:
 class ModelOpenAI:
     def __init__(self):
         self.llm = OpenAI(
-            openai_api_key="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"
+            openai_api_key="<your token>"
         )
 
     def generate(self, text: str) -> str:
@@ -44,7 +44,7 @@ class HFStarchat:
 
         self.llm = HuggingFaceHub(
             repo_id=model,
-            huggingfacehub_api_token="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",
+            huggingfacehub_api_token="<your token>",
             model_kwargs={
                 "min_length": 30,
                 "max_new_tokens": 256,
